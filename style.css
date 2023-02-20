@@ -28,3 +28,23 @@ body {
 .square {
     flex-grow: 1;
 }
+
+.reset {
+    background-color: #fff;
+}
+
+input {
+    display: inline;
+}
+
+button {
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+}
+
+#error {
+    padding: 0;
+    margin: 0;
+    color: red;
+}

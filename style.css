@@ -1,11 +1,30 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 90vh;
+    gap: 1rem;
+    background-color: lightblue;
 }
 
-canvas {
-    border: 1px solid black;
+.container {
+    background-color: white;
+    border: 0.5px solid lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 500px;
+    max-width: 960px;
+    max-height: 500px;
+}
 
+.sub-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.square {
+    flex-grow: 1;
 }
